@@ -1,0 +1,22 @@
+
+
+body{
+    background-color:cornflowerblue;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/img/Fondo.jpeg);
+    background-size: cover;
+}
+.logo img{
+    width: 200px;
+    border-radius: 100px;
+}
+h1{
+  font-family: sans-serif;
+}
