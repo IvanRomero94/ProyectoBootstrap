@@ -1,4 +1,4 @@
-@import "variables";
+@import "_variables";
 
 body{
     background-color:$colorprimario;
@@ -19,4 +19,27 @@ body{
     h1{
       font-family: sans-serif;
     }
+    .subtitulo{
+        color: black;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .subtitulo-secun{
+        @extend .subtitulo;
+    }
+    .col{
+        background-color: map-get($tarjetas , bg-color );
+    }
+    @mixin btn ($tamanioletra, $bg-color, $letra) {
+        font-size: $tamanioletra;
+        background-color: $bg-color;
+        font-family: $letra;
+        
+    }
+
+    .btn{
+        @include btn(25px, aqua,sans-serif )
+    }
+
+    
 }

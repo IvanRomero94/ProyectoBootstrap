@@ -27,4 +27,20 @@ body .logo img {
 body h1 {
   font-family: sans-serif;
 }
+
+body .subtitulo, body .subtitulo-secun {
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+body .col {
+  background-color: beige;
+}
+
+body .btn {
+  font-size: 25px;
+  background-color: aqua;
+  font-family: sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
