@@ -1,46 +1,26 @@
 body {
-  background-color: #6495ed;
-}
-
-body .logo {
-  width: 100%;
-  height: auto;
-  margin-top: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url(/assets/img/Fondo.jpeg);
-  background-size: cover;
-}
-
-body .logo img {
-  width: 200px;
-  border-radius: 100px;
-}
-
-body h1 {
-  font-family: sans-serif;
-}
-
-body .subtitulo, body .subtitulo-secun {
-  color: black;
-  font-size: 25px;
-  font-family: sans-serif;
-}
-
-body .col {
-  background-color: beige;
-}
-
-body .btn {
-  font-size: 25px;
-  background-color: aqua;
-  font-family: sans-serif;
-}
-/*# sourceMappingURL=style.css.map */
+  background-color: #6495ed; }
+  body .logo {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/img/Fondo.jpeg);
+    background-size: cover; }
+  body .logo img {
+    width: 200px;
+    border-radius: 100px; }
+  body h1 {
+    font-family: sans-serif; }
+  body .subtitulo, body .subtitulo-secun {
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif; }
+  body .col {
+    background-color: beige; }
+  body .btn {
+    font-size: 25px;
+    background-color: aqua;
+    font-family: sans-serif; }
